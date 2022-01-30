@@ -21,7 +21,7 @@ def nearest(items, pivot):
 def app(username, capital_dispo, capital_investi, capital_total):
     #####Transco Ticker -> Nom + informations
     st.markdown("""<style>div.stButton > button:first-child {width : 100%;}</style>""", unsafe_allow_html=True)
-    df = pd.read_csv("/Users/yoann/Desktop/Python/Trading/nasdaq_screener_1641419780590.csv", sep=",",
+    df = pd.read_csv("nasdaq_screener_1641419780590.csv", sep=",",
                      usecols=["Symbol", "Name", "Country", "Sector", "Industry"])
     df['Name'] = [i.upper() for i in df['Name']]
     st.title('Découvrir')
