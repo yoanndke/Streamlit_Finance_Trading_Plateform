@@ -1,6 +1,6 @@
 streamlit
 pandas
-python-dateutil.relativedelta
+python-dateutil
 pandas_datareader.data
 numpy
 matplotlib.pyplot
