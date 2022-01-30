@@ -7,3 +7,4 @@ matplotlib
 plotly
 pystan==2.19.1.1
 fbprophet
+cython==0.22
