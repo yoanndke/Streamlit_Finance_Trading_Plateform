@@ -1,17 +1,2 @@
-import streamlit as st
-import app_V2
-import importlib
-import time
-import hashlib
-import sqlite3
-import pandas as pd
-from datetime import datetime, date
-from dateutil.relativedelta import relativedelta
-import pandas_datareader.data as web
-import numpy as np
-import matplotlib.pyplot as plt
-from datetime import datetime, date, timedelta
-from plotly import graph_objs as go
-from datetime import date, timedelta
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+flask
+gunicorn
