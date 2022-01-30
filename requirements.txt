@@ -1,5 +1,3 @@
-flask
-gunicorn
 import streamlit as st
 import app_V2
 import importlib
