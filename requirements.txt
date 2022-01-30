@@ -1,9 +1,8 @@
 streamlit
 pandas
 python-dateutil
-pandas_datareader.data
+pandas_datareader
 numpy
-matplotlib.pyplot
+matplotlib
 plotly
 fbprophet
-fbprophet.plot
